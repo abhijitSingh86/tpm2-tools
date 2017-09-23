@@ -16,7 +16,7 @@ First of all, let's look at some self-contained tools.
 
 * To get a 20 bytes random number into file random.out:
 
-`$ tpm2_getrandom -s 20 -o random.out`
+`$ tpm2_getrandom 20 -o random.out`
 
 * To caculate the SHA1 hash value of file data.in and output into hash.out
 
